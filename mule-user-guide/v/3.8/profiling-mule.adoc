@@ -117,9 +117,16 @@ wrapper.java.additional.NN=-agentpath:/yjp-2013-build-13062/bin/linux-x86-64/lib
 Detailed installation instructions for different operative systems, can be found in the link:https://www.yourkit.com/docs/[YourKit documentation].
 
 [NOTE]
-By default, Yourkit agent will scan for an internet facing port. If a specific port is desired, you can set it by adding: +
+By default, Yourkit agent scans for an internet facing port. If a specific port is desired, you can set it by adding: +
 `wrapper.java.additional.NN=-agentpath:<absolute-path-to-the-agent>=delay=10000,port=<port>`. +
 A full list of start up parameters can be found in link:https://www.yourkit.com/docs/java/help/startup_options.jsp[YourKit startup options].
 
 Restart Mule and set the YourKit profiler UI to connect to the host (with port, if specific port was specified). +
 Check link:https://www.yourkit.com/docs/java/help/running_profiler.jsp[YourKit documentation] for a more detailed explanation on how to properly launch the agent based on your operative system.
+
+== See Also
+
+* link:http://training.mulesoft.com[MuleSoft Training]
+* link:https://www.mulesoft.com/webinars[MuleSoft Webinars]
+* link:http://blogs.mulesoft.com[MuleSoft Blogs]
+* link:http://forums.mulesoft.com[MuleSoft Forums]
