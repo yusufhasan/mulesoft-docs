@@ -1,13 +1,13 @@
-= Anypoint CloudStore Tutorial
-:keywords: cloudstore, tutorial
+= Anypoint Object Store 2 Tutorial
+:keywords: Object Store 2, tutorial
 
-This document helps you understand the use of the CloudStore user interface, the CloudStore connector, and how to use the REST API.
+This document helps you understand the use of the Object Store 2 user interface, the Object Store 2 connector, and how to use the REST API.
 
 == Prerequisites
 
 Before starting, read these documents:
 
-* Anypoint CloudStore
+* *Anypoint Object Store 2* 
 * Mule Object Stores
 
 == Configuring Object Store Access

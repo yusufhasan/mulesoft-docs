@@ -3,7 +3,7 @@
 
 Anypoint Object Store 2 builds on the Mule Object Store and extends it as a true platform object store that can be used for caching and sharing data across applications.
 
-A person or an application can create as many object stores as needed to store different kinds of data. For example, an application can use Object Store 2 to create an API cache, an link:/mule-user-guide/v/3.8/idempotent-filter[idempotent filter], or a way to store information to share between Mule workers, such as OAuth tokens. All of these would be different object stores that can be shared across applications.
+A person or an application can create as many object stores as needed to store different kinds of data. For example, an application can use Object Store 2 to create an API cache, an link:/mule-user-guide/v/3.8/idempotent-filter[idempotent filter], or a way to store information to share between Mule workers, such as OAuth tokens. All of these are different object stores that can be shared across applications.
 
 == Features
 
@@ -30,6 +30,51 @@ The Object Store 2 documentation set consists of:
 * REST APIs
 * FAQ
 * Release Notes
+
+== Object Store 2 Operations
+
+Object Store 2 provides these operations:
+
+[cols="30a,70a",options="header"]
+|===
+|Task |Operations
+
+|Define |
+
+* Object Store
+* Key, value
+* TTL (by default TTL is 1209600 seconds (14 days). TTL values are in seconds. MAX TTL of  2592000 Seconds (30 days).
+* Persistence property
+* Usage limits for each application or environment, includes options for limiting based on keys or size and how to enforce them.
+
+|Delete |
+
+* Entire object store
+* Individual key-value/lists
+* Individual values
+* Multiple key-value/lists
+
+|View |
+
+* Object stores
+* Key-value/lists along with TTL and usage (with pagination)
+* Usage for each object store
+* Total usage for each key
+
+|Search |
+
+* By keys (enables partial search with the first few letters of a key)
+|===
+
+== Object Store 2 Workflow
+
+Using Object Store 2 works as follows:
+
+. Log into link:https://anypoint.mulesoft.com/#/signin[Anypoint Platform].
+. Click *Runtime Manager*.
+. If you have an existing application, click it and *Manage Application*.
++
+If this is your first use, create an application in Anypoint Studio and export it as a Mule project zip file. In Runtime Manager, click *Deploy application* and choose the exported project.
 
 == See Also
 
