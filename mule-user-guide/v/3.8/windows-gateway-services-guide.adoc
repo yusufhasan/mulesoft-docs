@@ -42,6 +42,8 @@ Installation steps:
 . Click *Finish* to exit.
 . The installation creates the new *Anypoint Gateway* Windows service, which the installer starts.
 
+Note: Windows Gateway Services must be installed in the same domain as the Microsoft Dynamics AX 2012 environment in order to establish connectivity.
+
 image:AnypointGateway.png[AnypointGateway]
 
 To view the running service in Windows 7, when the Control Panel *View by* option is set to *Small icons*, click *Control Panel* > *Administrative Tools* > *Services*. The service appears as:
